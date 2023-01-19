@@ -64,6 +64,8 @@ body {
   line-height: 1, 17;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .title-seven {
   font-family: Roboto;
@@ -311,9 +313,9 @@ body {
   box-sizing: border-box;
   position: none;
   width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 262px;
+  height: 428px;
+  margin-left: 215px;
+  margin-top: 186px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   display: inline-flex;
@@ -397,4 +399,6 @@ body {
 }
 
 .icons-social-media-our-tem {
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
