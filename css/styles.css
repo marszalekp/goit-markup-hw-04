@@ -416,6 +416,7 @@ body {
 }
 .social-icon-footer-color {
   border-radius: 50%;
+  object-fit: cover;
   background-color: #afb1b8;
 }
 .flexbox-footer {
