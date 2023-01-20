@@ -184,6 +184,11 @@ body {
   margin: 0 auto;
 }
 
+.container-buttons-portfolio {
+  width: 1200px;
+  margin-top: 100px;
+  margin-bottom: 56px;
+}
 .box {
   box-sizing: border-box;
   width: 370px;
@@ -251,12 +256,11 @@ body {
   height: 80px;
   display: flex;
 }
+
 .menu {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto, 0 100px;
   gap: 30px;
-  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .navbar__links {
@@ -379,11 +383,9 @@ body {
 }
 .box-icon-lorem {
   background-color: #f5f4fa;
-  border-radius: 4px;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 102.34px;
-  margin-right: 102.34px;
+  display: flex;
 }
 
 .box-text-lorem-title {
@@ -401,4 +403,18 @@ body {
 .icons-social-media-our-tem {
   margin-top: 16px;
   margin-bottom: 30px;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.icons-social-media-footer {
+  display: flex;
+  margin-top: 20px;
+}
+.social-icon-footer-color {
+  border-radius: 50%;
+  background-color: #afb1b8;
+}
+.flexbox-footer {
+  display: inline-flex;
 }
