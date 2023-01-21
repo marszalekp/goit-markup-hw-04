@@ -341,6 +341,7 @@ body {
   padding-bottom: 94px;
   margin-top: 0 auto;
 }
+
 .foter-portfolio {
   max-width: 1600px;
   height: 252px;
@@ -349,6 +350,7 @@ body {
   padding-bottom: 94px;
   margin-top: 80px;
 }
+
 .adress-text {
   top: 2208px;
   font-family: "Roboto";
@@ -356,7 +358,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
@@ -414,15 +415,17 @@ body {
   margin-left: 40px;
   margin-right: 40px;
 }
-.icons-social-media-footer {
-  display: flex;
-  margin-top: 20px;
-}
-.social-icon-footer-color {
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: #afb1b8;
-}
+
 .flexbox-footer {
-  display: inline-flex;
+  display: flex;
+  align-items: baseline;
+}
+.footer-two {
+  display: flex;
+  flex-direction: column;
+}
+.footer-one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
 }
