@@ -16,7 +16,6 @@ body {
   max-height: 100%;
   max-width: 100%;
   margin: 24px auto;
-  /* border: 1px solid red; */
 }
 
 .title-one {
@@ -151,15 +150,13 @@ body {
 }
 
 .effective {
-  margin: auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-  text-align: center;
 }
 
 .Webstudio {
@@ -174,7 +171,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
+
   text-decoration: none;
 
   letter-spacing: 0.03em;
@@ -217,6 +214,17 @@ body {
   margin-bottom: auto;
 }
 
+.section-baner {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 94px;
+  background: linear-gradient(#2f303a66, #2f303a66),
+    url("../images/background-banner.png");
+  text-align: center;
+}
+
 .section {
   max-width: 1600px;
   margin: 0 auto;
@@ -227,6 +235,7 @@ body {
 .section-lorem {
   max-width: 1200px;
   margin-bottom: 94px;
+  margin-top: 94px;
 }
 
 * {
@@ -237,8 +246,6 @@ body {
 
 .flex-parent {
   display: flex;
-  /* display: inline-flex; */
-  /* block vs inline-block */
   margin: 0 auto;
 }
 
@@ -267,7 +274,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid blue; */
 }
 
 .navbar__items {
@@ -299,9 +305,6 @@ body {
   text-align: center;
 }
 
-.banner-background {
-  background-image: url("/goit-markup-hw-04/images/background-banner.png");
-}
 .banner-shadow {
   background-color: #2f303a 40%;
 }
