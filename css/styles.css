@@ -46,6 +46,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  display: flex;
 }
 .title-five {
   font-family: Roboto;
@@ -420,12 +421,35 @@ body {
   display: flex;
   align-items: baseline;
 }
-.footer-two {
+.footer-part-two {
   display: flex;
   flex-direction: column;
 }
-.footer-one {
+.footer-part-one {
   display: flex;
   flex-direction: column;
   margin-left: 0px;
+}
+
+.icon-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  fill: white;
+}
+
+.icon-bacground {
+  background: #ffffff1a;
+  border-radius: 50%;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.icon-bacground:hover {
+  background: #2196f3;
 }
