@@ -317,6 +317,14 @@ body {
   padding-bottom: 94px;
 }
 
+.section-costumers {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: white;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .box-team {
   box-sizing: border-box;
   position: none;
