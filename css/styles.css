@@ -411,6 +411,7 @@ body {
   justify-content: space-evenly;
   margin-left: 40px;
   margin-right: 40px;
+  list-style: none;
 }
 
 .icons-social-media-our-team {
@@ -453,6 +454,7 @@ body {
 
 .icon-bacground:hover {
   background: #2196f3;
+  fill: #ffffff;
 }
 
 .box-icon-costumers {
