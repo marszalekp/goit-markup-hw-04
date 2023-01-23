@@ -239,12 +239,6 @@ body {
   margin-top: 94px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .flex-parent {
   display: flex;
   margin: 0 auto;
@@ -254,11 +248,6 @@ body {
   padding: 30px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
-}
 .page-header-line {
   border: 1px solid #ececec;
   height: 80px;
