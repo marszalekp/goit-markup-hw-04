@@ -230,8 +230,8 @@ body {
 .section {
   max-width: 1600px;
   margin: 0 auto;
-  padding-top: 0px;
-  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .section-lorem {
@@ -287,6 +287,7 @@ body {
 
 .list-element {
   list-style: none;
+  margin-bottom: 9px;
 }
 
 .banner {
@@ -301,7 +302,6 @@ body {
   background-color: #2f303a 40%;
 }
 .section-team {
-  max-width: 1600px;
   margin: 0 auto;
   background: #f5f4fa;
   padding-top: 94px;
@@ -407,13 +407,10 @@ body {
 }
 
 .icons-social-media-our-tem {
-  margin-top: 16px;
-  margin-bottom: 30px;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 40px;
-  margin-right: 40px;
   list-style: none;
+  fill: #afb1b8;
 }
 
 .icons-social-media-our-team {
@@ -428,11 +425,12 @@ body {
 .footer-part-two {
   display: flex;
   flex-direction: column;
+  margin-left: 70px;
 }
 .footer-part-one {
   display: flex;
   flex-direction: column;
-  margin-left: 0px;
+  margin-left: 0 auto;
 }
 
 .icon-items {
@@ -484,12 +482,5 @@ body {
   padding: 12px;
   align-items: center;
   justify-content: center;
-  display: flex;
-}
-.icon-our-team-social:hover {
-  background: #2196f3;
-  border-radius: 50%;
-  padding: 12px;
-  align-items: center;
   display: flex;
 }
