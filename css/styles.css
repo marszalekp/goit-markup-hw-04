@@ -195,6 +195,16 @@ body {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
+.box:hover {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
 
 .orderly {
   display: flex;
